@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+body { font-family:'Noto Sans KR'; }
+header { position: fixed; left: 0; top:0; padding:0 50px 0 50px; width: 100%; box-sizing: border-box; z-index: 99999;}
+header h1 { float: left;}
+header h1 a { display: block; margin: 19px 30px 0 0; width: 102px; height: 62px; background: url(../images/logo.png) no-repeat; font-size: 0; }
+header nav{ float: left;}
+header nav > ul > li { padding:40px 30px 0 30px; float: left;}
+header nav > ul > li > a { font-size:17px; font-weight: bold; color: #fff;}
+header > div > div  { float: right; padding:33px 0;}
+header > div > div > a { float: left; display: block; width: 110px; height: 32px; border: 1px solid #fff; font-size: 12px; color: #fff; text-align: center; line-height: 32px;}
+header > div > div a span { padding:0 19px 0 6px; }
+header > div > div a img { margin: -2px 0 0; font-size: 16px;}
+header > div > div a p { font-size: 6px;}
+header > div > div > div { float: left; width:76px;}
+header > div > div > div a {position: relative; float: right; display: block; width: 28px; height: 27px; font-size:0;}
+header > div > div > div a span:before,
+header > div > div > div a span:after {content: ""; position: absolute; right:0; top:11px; float: right; display: block; width:36px; height: 3px; background: #fff; transition: width .5s;}
+header > div > div > div a:hover span:before,
+header > div > div > div a:hover span:after { width:25px;}
+header > div > div > div a p:before,
+header > div > div > div a p:after {content: ""; position: absolute; right:0; top: 21px; float: right; width:25px; height: 3px; background: #fff; transition: width .5s;}
+header > div > div > div a:hover p:before,
+header > div > div > div a:hover p:after { width:36px;}
+
+/* 소메뉴 */
+header nav > ul > li > ul { display: none;}
+
+/* 메인1 */
+.main.seoil {position: relative; height: 766px; background: url(../images/ms1_vg2.png) no-repeat; background-size: cover; box-sizing: border-box;}
+.main { clear: both; color:#fff; }
+.main .btnbox > img { position: absolute; left:0px; top:0;}
+.main .btnbox { position: absolute; left:158px; top:222px; margin-bottom: 20px; width: 115px; height: 24px; }
+.main .btn { float: right;}
+.main .btn li { float: left; }
+.main .btn li .btn1 { display: block; margin:9px 27px 0 0; width: 6px; height: 6px; border-radius: 100%; line-height: 24px; background: #fff; font-size: 0px;}
+.main .btn li .btn2 { background: rgba(0,0,0,0);}
+.main .btn li .btn2 img {display: block; margin-top: 3px; font-size: 8px;}
+.main .txt1 { padding: 280px 0 0 160px; animation: ani 1s ease .5s 1;}
+.main .txt1 b { clear: both; font-size: 47px; line-height: 76px;}
+.main .txt1 p {margin-top:30px; font-size: 19px; line-height: 15px;}
+.main .txt1 a { display: block; margin-top:65px;  width: 161px; height: 55px; border: 2px solid#fff; border-radius:55px;}
+.main .txt1 a span { float: left; display: block; padding:0 22px 0 29px; font-size: 16px; line-height: 55px; color: #fff;}
+.main .txt1 a img { margin-top: 23px; animation: arrow .8s 0s infinite;}
+.main .sub { position:fixed; right: 0; top: 50%; height: 209px; transform: translate(0,-50%); z-index: 99999;}
+.main .sub ul li {position: relative; padding-right:50px;}
+.main .sub ul li ~ li { padding-top: 65px;}
+.main .sub ul li a { float: right; font-size: 14px; color: #fff;}
+.main .sub .bar span { display: block; position: absolute; right: 0; top: 10px; width: 35px; height: 1px; background: #fff; animation: sub 1s 1s;}
+
+/* 메인2 */
+.main.prod { clear: both; position: relative; height: 766px; width: 100%; background: url(../images/main_prod_bg1.png) no-repeat; background-size: cover; box-sizing: border-box; z-index: 999; }
+.main.prod .btnbox {width:247px;}
+.main.prod .udbar { position: absolute; left: 0; bottom: 0; width: 100%; height: 90px; background: rgba(225,225,225,.10); box-sizing: border-box;}
+.main.prod .udbar ul {display: flex; width:100%; box-sizing: border-box;}
+.main.prod .udbar ul li:nth-of-type(1) { flex: none ; width:288px; background: #748d1e;;}
+.main.prod .udbar ul li:nth-of-type(1) p { float: right; }
+.main.prod .udbar ul li:nth-of-type(1) p button {float: left; display: block; width: 80px; height: 90px; font-size: 35px;  background: rgba(0,0,0,0); color: #fff;}
+.main.prod .udbar ul li:nth-of-type(1) p span {float: left; display: block; margin-top:32px; width: 1px; height: 28px; background: #fff;}
+.main.prod .udbar ul li ~ li { flex: 1; height: 90px; text-align: center;}
+.main.prod .udbar ul li a { font-size: 19px; font-weight: bold; line-height: 90px; color: #fff;}
+
+/* 메인3 */
+.main.mana { clear: both; height: 766px; width: 100%; background: url(../images/sec3_bg.png) no-repeat; background-size: cover; box-sizing: border-box; }
+
+
+/* 메인4 */
+.main4 { position: relative; width: 100%; height: 766px; box-sizing: border-box;}
+.main4 > div { position: absolute; left: 0; top: 0; width: 100%; height: 766px; font-size: 0; background: #000;}
+.main4 ul { display: flex; height: 766px;}
+.main4 li { position: relative; flex:1; }
+.main4 li > img { width: 100%; height: 100%; box-sizing: border-box; opacity: .5; transition: opacity 1s 0s}
+.main4 li > img:hover { opacity: 1;}
+.main4 li a { width: 100%; height: 100%;}
+.main4 li a div {position: absolute; left: 0; top: 173px; width: 100%; text-align: center;}
+.main4 li a span { display: block; margin: 0 auto 82px; width: 207px; height: 207px; font-size: 0; border-radius: 100%; background: rgba(225,225,225,.40);}
+.main4 li a span img { margin:33% auto; font-size: 55px;}
+.main4 li a strong { font-size: 37px; line-height: 0; color:#fff;}
+.main4 li a p { padding-top: 39px; font-size: 16px; line-height: 32px; color:#fff;}
+
+/* 애니메이션 */
+@keyframes ani {
+    0% {padding-top: 330px; color: transparent;}
+    100% {padding-top: 280px; }
+}
+@keyframes arrow {
+    0% { margin-left: 0;}
+    50% { margin-left: 10px;}
+    100% { margin-left: 0;}
+
+}
+@keyframes sub {
+    0% { position: absolute; right: -33px; top: 10px;}
+    100% { position: absolute; right: 0; top: 10px;}
+}

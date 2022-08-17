@@ -3,4 +3,5 @@ seoil clonen 2020 Update.
 
 
 
-# seoil
+seoil rending page
+- HTML, CSS

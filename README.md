@@ -3,5 +3,5 @@ seoil clonen 2020 Update.
 
 
 
-seoil rending page
+seoil randing page
 - HTML, CSS
